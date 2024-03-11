@@ -1,0 +1,105 @@
+.timer__parent {
+  height: 100%;
+  width: 100%;
+  border-radius: 2vh;
+  display: flex;
+  gap: 8vw;
+  align-items: center;
+  background-color: #1e2343;
+}
+
+.inside__circle {
+  height: 85%;
+  width: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e2343;
+  border-radius: 50%;
+  color: white;
+  font: 2rem;
+}
+
+.timer__circle {
+  height: 27vh;
+  width: 27vh;
+  margin-left: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 1px 1px 10px 2px black;
+}
+
+.timer__countdown__parent {
+  text-align: center;
+}
+
+.timer__countdown {
+  height: 20vh;
+  width: 35vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 1vh;
+}
+
+.timer__countdown > span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+  margin-top: 1rem;
+}
+
+.hours,
+.minutes,
+.seconds {
+  font-size: 10px;
+  color: #949494;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.hours > span,
+.minutes > span,
+.seconds > span {
+  font-size: 18px;
+}
+
+.hours > img,
+.minutes > img,
+.seconds > img {
+  width: 25px;
+  height: 25px;
+}
+
+.timer {
+  display: flex;
+}
+
+#times {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stop,
+.start {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  height: 5vh;
+  width: 35vw;
+  border-radius: 5vh;
+  border: none;
+  background-color: #ff6a6a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

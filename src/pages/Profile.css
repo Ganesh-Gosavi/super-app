@@ -1,0 +1,45 @@
+.profile__parent {
+  display: flex;
+  padding: 2vh 2vw;
+  background-color: black;
+  overflow: hidden;
+}
+
+.pleft__top {
+  display: flex;
+}
+
+.pleft__left {
+  display: flex;
+  flex-direction: column;
+  width: 38vw;
+  height: 60vh;
+}
+
+.pleft__right {
+  height: 57vh;
+  width: 25vw;
+  background-color: orange;
+  border-radius: 2vh;
+  margin: 1vh 1vw;
+}
+
+.pleft__bottom {
+  height: 28vh;
+  width: 63vw;
+  border-radius: 2vh;
+  margin: 1vh 1vw;
+}
+
+.browse__button{
+  position: fixed;
+  top: 93vh;
+  left: 85vw;
+  padding: 7px 20px;
+  background-color: #148A08;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}

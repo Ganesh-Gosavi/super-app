@@ -1,0 +1,36 @@
+.parent__movie{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 7vh;
+}
+
+.top > #profile__icon{
+    border-radius: 10vh;
+}
+
+#profile__icon{
+    height: 10vh;
+    width: 10vh;
+}
+
+.movie__text{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 8vw;
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.conatiner__parent{
+    height: 33vh;
+    width: 100vw;
+    margin: 10px 10px;
+}

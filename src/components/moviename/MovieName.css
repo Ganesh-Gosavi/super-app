@@ -1,0 +1,24 @@
+.movie-name {
+  display: flex;
+  height: 2rem;
+  width: 8rem;
+  background-color: #148a08;
+  border-radius: 20px;
+  margin: 0.5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding-left: 1rem;
+  margin-bottom: 1px;
+}
+
+#cross-icon {
+  height: 1.8rem;
+  width: 1.8rem;
+  padding-right: 0.5rem;
+}

@@ -1,0 +1,32 @@
+.movie__genre__container{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 20px;
+    height: 25vh;
+    gap: 10px;
+    margin-bottom: 0.50rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.genre__title{
+    text-align: left;
+    margin-left: 7vh;
+}
+
+.movie__genre__container__images{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vh 7vh;
+}
+
+.movie__genre__container__image > img {
+    height: 17vh;
+    width: 17vw;
+    border-radius: 10px;
+}
